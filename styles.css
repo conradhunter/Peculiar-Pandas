@@ -9,11 +9,11 @@
 }
 
 body {
-    background-color: #a3d196;
+    background-color: #101313;
 }
 
 .blue__text {
-    color: #2bff00;
+    color: #002bff;
 }
 
 /* NAVIGATION BAR */
@@ -23,7 +23,7 @@ nav {
     height: 150px;
     justify-content: space-between;
     padding: 0 150px;
-    background-color: #a3d196;
+    background-color: #101313;
     align-items: center;
 }
 
@@ -38,7 +38,7 @@ nav {
 
 .nav__bar--link {
     margin-right: 20px;
-    color: black;
+    color: rgb(218, 218, 218);
     text-decoration: none;
     font-size: 17px;
     font-weight: 200;
@@ -46,11 +46,11 @@ nav {
 }
 
 .nav__bar--link:hover {
-    color: white;
+    color: rgb(116, 116, 116);
 }
 
 .opensea__link {
-    background-color: #5f7c58;
+    background-color: #3c8c27;
     border: none;
     padding: 8px 12px;
     border-radius: 15px;
@@ -70,6 +70,10 @@ nav {
     margin-bottom: 150px;
 }
 
+.info__heading {
+    color: white;
+}
+
 .half__container--left {
     align-items: center;
     margin: auto;
@@ -82,6 +86,7 @@ nav {
 .info__para {
     max-width: 600px;
     padding: 10px 10px 10px 0;
+    color: rgb(218, 218, 218);
 }
 
 #panda__gif {
@@ -112,13 +117,13 @@ nav {
 }
 
 .gallery__section {
-    background-color: #88af7d;
+    background-color: #101313;
 }
 
 #gallery__heading {
     text-align: center;
     padding: 32px;
-    color: #d2fac7;
+    color: #0000b5;
     font-size: 38px;
 }
 
@@ -149,19 +154,22 @@ nav {
 
 #team__intro {
     text-align: center;
+    color: rgb(218, 218, 218);
 }
 
 .member__name {
     font-size: 18px;
+    color: rgb(218, 218, 218);
 }
 
 .member__role {
     font-size: 14px;
     margin-bottom: 12px;
+    color: rgb(218, 218, 218);
 }
 
 .member__social--link {
-    color: black;
+    color: rgb(218, 218, 218);
     text-decoration: none;
     padding: 6px;
     font-size: 20px;
@@ -170,7 +178,7 @@ nav {
 /* FAQ's */
 
 .faq {
-    background-color:#5f7c58;
+    background-color:#101313;
 }
 
 .faq__container {
@@ -181,12 +189,14 @@ nav {
 
 .questions {
     padding-bottom: 10px;
+    color: rgb(218, 218, 218);
 }
 
 .faq__heading {
     text-align: center;
     margin: 20px;
     padding-top: 20px;
+    color: rgb(218, 218, 218);
 }
 
 
@@ -195,7 +205,7 @@ nav {
 /* FOOTER */
 
 footer {
-    background-color: #a3d196;
+    background-color: #1d2222;
     height: 200px;
     display: flex;
     justify-content: space-around;
@@ -216,4 +226,5 @@ footer {
     max-width: 200px;
     width: 100%;
     text-align: center;
+    color: rgb(218, 218, 218);
 }
