@@ -13,7 +13,7 @@ body {
 }
 
 .blue__text {
-    color: blue;
+    color: #2bff00;
 }
 
 /* NAVIGATION BAR */
@@ -50,7 +50,7 @@ nav {
 }
 
 .opensea__link {
-    background-color: blue;
+    background-color: #5f7c58;
     border: none;
     padding: 8px 12px;
     border-radius: 15px;
@@ -209,4 +209,11 @@ footer {
 
 .footer__page--links {
     display: flex;
+}
+
+.footer__copyright {
+    font-size: 12px;
+    max-width: 200px;
+    width: 100%;
+    text-align: center;
 }
