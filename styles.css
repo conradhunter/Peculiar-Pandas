@@ -107,6 +107,11 @@ nav {
     border-radius: 6px;
     margin: 5px;
     box-shadow: 0 20px 80px rgba(0, 0, 0, 0.8);
+    transition: all 1000ms ease;
+}
+
+.gallery__img:hover {
+    transform: scale(2);
 }
 
 .gallery {
@@ -198,7 +203,7 @@ nav {
 .faq__container {
     max-width: 1100px;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto 100px;
     border: 2px rgb(218, 218, 218) solid;
     padding: 24px;
 }
@@ -215,7 +220,12 @@ nav {
 }
 
 .answer {
-    font-size: 14px;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+.question {
+    padding-bottom: 10px;
 }
 
 
@@ -237,6 +247,7 @@ footer {
 
 .footer__page--links {
     display: flex;
+    margin-right: 20px;
 }
 
 .footer__copyright {
@@ -264,8 +275,41 @@ footer {
 
 .footer__link-socials {
     display: flex;
+    align-items: center;
 }
 
 .footer__socials {
     flex-direction: column;
+}
+
+/* ROADMAP */
+
+.roadmap__row {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.roadmap__heading {
+    color: rgb(218, 218, 218);
+    text-align: center;
+}
+
+.roadmap__list-item {
+    color: rgb(218, 218, 218);
+    margin: 20px;
+    background-color: #232727;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.roadmap__img {
+    max-width: 200px;
+}
+
+.roadmap__phase {
+    margin: 16px 0;
 }
