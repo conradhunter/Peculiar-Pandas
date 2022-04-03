@@ -8,12 +8,22 @@
     list-style: none;
 }
 
+::-webkit-scrollbar {
+    overflow: scroll;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #62e1e9;
+    border-radius: 10px;
+}
+
 body {
     background-color: #101313;
 }
 
 .blue__text {
-    color: #002bff;
+    color: #005eff;
 }
 
 /* NAVIGATION BAR */
@@ -108,11 +118,12 @@ nav {
     border-radius: 6px;
     margin: 5px;
     box-shadow: 0 20px 80px rgba(0, 0, 0, 0.8);
-    transition: all 1000ms ease;
+    transition: all 300ms ease;
 }
 
 .gallery__img:hover {
-    transform: scale(2);
+    transform: scale(1.2);
+    cursor: url(/assets/3173.png);
 }
 
 .gallery {
@@ -218,10 +229,11 @@ nav {
     text-align: center;
     margin: 20px;
     color: rgb(218, 218, 218);
+    font-size: 32px;
 }
 
 .answer {
-    font-size: 12px;
+    font-size: 14px;
     padding-bottom: 20px;
 }
 
@@ -317,6 +329,10 @@ footer {
     background-color: #414747;
 }
 
+.roadmap__list-item:last-child {
+    margin-bottom: 100px;
+}
+
 .roadmap__img {
     max-width: 200px;
 }
@@ -328,4 +344,49 @@ footer {
 .phase__info {
     max-width: 600px;
 }
+
+/* MINT */
+
+#mint__panda {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 200px;
+    margin: 0 auto;
+    margin: 75px;
+}
+
+.mint__container {
+    margin: 0 auto;
+    max-width: 600px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.mint__img {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.about__mint {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mint__heading {
+    color: white;
+    text-align: center;
+    margin-bottom: 44px;
+}
+
+.mint__social--link {
+    font-size: 50px;
+}
+
+
+
+
+
 
